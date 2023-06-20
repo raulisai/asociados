@@ -40,7 +40,7 @@
 </svelte:head>
 
 <section class="row">
-	<div class="col-12 mt-5">
+	<div class="col-12 mt-5 content-justyfy ">
 		<h3>Menú de Proyectos</h3>
 		{#each projects as project}
 			<div class="row mt-3">
