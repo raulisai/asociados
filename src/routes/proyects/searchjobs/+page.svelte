@@ -1,4 +1,13 @@
 <script>
+import Skill from './skill.svelte'
+import SkillTecnicas from './skilltecnic.svelte'
+import Hobbies from './hobbies.svelte'
+import works from './works.svelte'
+  import Skilltecnic from './skilltecnic.svelte';
+  import Works from './works.svelte';
+
+
+
 </script>
 
 <section class="row">
@@ -66,21 +75,40 @@
           />
         </div>
         <div class="col-md-12 mt-5">
-            <textarea class="responsive-textarea" placeholder="Descripcion"></textarea>
-          </div>
+          <textarea class="responsive-textarea" placeholder="Descripcion" />
+        </div>
       </div>
+    </div>
 
-     
+    <div class="row">
+      <h4>Skills</h4>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-6">
+            <Skill/>
+          </div>
+          <div class="col-6">
+            <Skilltecnic/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <Hobbies/>
+          </div>
+          <div class="col-6">
+            <Works/>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-
 <style>
-    .responsive-textarea {
-        width: 100%;
-        max-width: 1200px;
-        height: 200px;
-        resize: vertical;
-    }
+  .responsive-textarea {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    resize: vertical;
+  }
 </style>
