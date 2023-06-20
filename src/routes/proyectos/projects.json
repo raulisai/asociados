@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Proyecto 1",
+      "description": "Descripción del proyecto 1",
+      "image": "ruta-de-la-imagen-1.jpg"
+    },
+    {
+      "name": "Proyecto 2",
+      "description": "Descripción del proyecto 2",
+      "image": "ruta-de-la-imagen-2.jpg"
+    },
+    {
+      "name": "Proyecto 3",
+      "description": "Descripción del proyecto 3",
+      "image": "ruta-de-la-imagen-3.jpg"
+    }
+  ]
+  
